@@ -50,11 +50,11 @@ const products: Product[] = [
   },
   {
     id: 3,
-    name: 'Oversized Premium White Tee',
+    name: 'Premium White Tee',
     price: 85,
-    category: 'Oversized T-Shirts',
+    category: 'T-Shirts',
     image: 'https://images.unsplash.com/photo-1503341504253-dff4815485f1?q=80&w=1000',
-    alt: 'Oversized premium white t-shirt'
+    alt: 'Premium white t-shirt'
   },
   {
     id: 4,
@@ -74,14 +74,22 @@ const products: Product[] = [
   },
   {
     id: 6,
-    name: 'Logo Beanie',
-    price: 52,
-    category: 'Beanies',
-    image: 'https://images.unsplash.com/photo-1576871337622-98d48d1cf531?q=80&w=1000',
-    alt: 'Logo beanie'
+    name: 'Classic Black Sweatshirt',
+    price: 120,
+    category: 'Sweatshirts',
+    image: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1000',
+    alt: 'Classic black sweatshirt'
   },
   {
     id: 7,
+    name: 'Oversized Streetwear Sweatshirt',
+    price: 135,
+    category: 'Sweatshirts',
+    image: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=1000',
+    alt: 'Oversized streetwear sweatshirt'
+  },
+  {
+    id: 8,
     name: 'Kids Oversized Tee',
     price: 65,
     category: 'Kids T-Shirts',
@@ -89,7 +97,7 @@ const products: Product[] = [
     alt: 'Kids oversized t-shirt'
   },
   {
-    id: 8,
+    id: 9,
     name: 'Kids Graphic Tee',
     price: 59,
     category: 'Kids T-Shirts',
@@ -97,7 +105,7 @@ const products: Product[] = [
     alt: 'Kids graphic print t-shirt'
   },
   {
-    id: 9,
+    id: 10,
     name: 'Kids Black Hoodie',
     price: 95,
     category: 'Kids Hoodies',
@@ -105,7 +113,7 @@ const products: Product[] = [
     alt: 'Kids black hoodie'
   },
   {
-    id: 10,
+    id: 11,
     name: 'Kids Oversized Hoodie',
     price: 105,
     category: 'Kids Hoodies',
@@ -113,68 +121,12 @@ const products: Product[] = [
     alt: 'Kids oversized hoodie'
   },
   {
-    id: 11,
-    name: 'Black Logo Cap',
-    price: 55,
-    category: 'Caps',
-    image: 'https://images.unsplash.com/photo-1517941823-815bea90d291?q=80&w=1000',
-    alt: 'Black logo baseball cap'
-  },
-  {
     id: 12,
-    name: 'Premium Dad Hat',
-    price: 49,
-    category: 'Caps',
-    image: 'https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?q=80&w=1000',
-    alt: 'Premium dad hat'
-  },
-  {
-    id: 13,
-    name: 'Black Cuff Beanie',
-    price: 45,
-    category: 'Beanies',
-    image: 'https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=1000',
-    alt: 'Black cuff beanie'
-  },
-  {
-    id: 14,
-    name: 'Logo Beanie',
-    price: 52,
-    category: 'Beanies',
-    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=80',
-    alt: 'Black winter beanie'
-  },
-  {
-    id: 15,
-    name: 'iPhone Matte Black Case',
-    price: 39,
-    category: 'Phone Cases',
-    image: 'https://images.unsplash.com/photo-1601593346740-925612772716?q=80&w=1000',
-    alt: 'Matte black iPhone case'
-  },
-  {
-    id: 16,
-    name: 'Clear Logo Phone Case',
-    price: 45,
-    category: 'Phone Cases',
-    image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=1000',
-    alt: 'Clear logo phone case'
-  },
-  {
-    id: 17,
-    name: 'Wireless Earbuds Case',
-    price: 69,
-    category: 'Tech Accessories',
-    image: 'https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?q=80&w=1000',
-    alt: 'Wireless earbuds protective case'
-  },
-  {
-    id: 18,
-    name: 'Premium Laptop Sleeve',
-    price: 79,
-    category: 'Tech Accessories',
-    image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000',
-    alt: 'Premium laptop sleeve'
+    name: 'Kids Sweatshirt',
+    price: 78,
+    category: 'Kids Sweatshirts',
+    image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1000',
+    alt: 'Kids sweatshirt'
   }
 ];
 
