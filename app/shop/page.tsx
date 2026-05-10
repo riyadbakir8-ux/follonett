@@ -290,8 +290,8 @@ const CartSidebar = ({
   cartTotal: number;
   isOpen: boolean;
   toggleCart: () => void;
-  updateQuantity: (id: number, quantity: number) => void;
-  removeItem: (id: number) => void;
+  updateQuantity: (id: string, quantity: number) => void;
+  removeItem: (id: string) => void;
 }) => (
   <AnimatePresence>
     {isOpen && (
@@ -430,7 +430,7 @@ export default function Shop() {
     });
   };
 
-  const updateQuantity = (id: number, quantity: number) => {
+  const updateQuantity = (id: string, quantity: number) => {
     if (quantity <= 0) {
       removeItem(id);
       return;
@@ -440,7 +440,7 @@ export default function Shop() {
     ));
   };
 
-  const removeItem = (id: number) => {
+  const removeItem = (id: string) => {
     setCartItems(prev => prev.filter(item => item.id !== id));
   };
 
