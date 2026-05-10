@@ -16,7 +16,7 @@ import {
 
 const products = [
   {
-    id: '1'
+    id: 1
     name: 'Oversized Black Logo Tee',
     price: 89,
     category: 'Oversized T-Shirts',
@@ -24,7 +24,7 @@ const products = [
     alt: 'Oversized black logo t-shirt'
   },
   {
-    id: '2'
+    id: 2
     name: 'Oversized Graphic Tee',
     price: 95,
     category: 'Oversized T-Shirts',
@@ -32,7 +32,7 @@ const products = [
     alt: 'Oversized graphic print t-shirt'
   },
   {
-    id: '3'
+    id: 3
   name: 'Oversized Premium White Tee',
   price: 85,
   category: 'Oversized T-Shirts',
@@ -42,7 +42,7 @@ const products = [
 
   // Hoodies
   {
-    id: '4'
+    id: 4
     name: 'Black Oversized Hoodie',
     price: 165,
     category: 'Hoodies',
@@ -50,7 +50,7 @@ const products = [
     alt: 'Black oversized hoodie'
   },
   {
-    id: '5'
+    id: 5
   name: 'Grey Premium Hoodie',
   price: 175,
   category: 'Hoodies',
@@ -58,7 +58,7 @@ const products = [
   alt: 'Grey premium hoodie'
   },
   {
-    id: '6'
+    id: 6
   name: 'Logo Beanie',
   price: 52,
   category: 'Beanies',
@@ -68,7 +68,7 @@ const products = [
 
   // Kids T-Shirts
   {
-    id: '7'
+    id: 7
     name: 'Kids Oversized Tee',
     price: 65,
     category: 'Kids T-Shirts',
@@ -76,7 +76,7 @@ const products = [
     alt: 'Kids oversized t-shirt'
   },
   {
-    id: '8'
+    id: 8
     name: 'Kids Graphic Tee',
     price: 59,
     category: 'Kids T-Shirts',
@@ -86,7 +86,7 @@ const products = [
 
   // Kids Hoodies
   {
-    id: '9'
+    id: 9
     name: 'Kids Black Hoodie',
     price: 95,
     category: 'Kids Hoodies',
@@ -94,7 +94,7 @@ const products = [
     alt: 'Kids black hoodie'
   },
   {
-    id: '10'
+    id: 10
   name: 'Kids Oversized Hoodie',
   price: 105,
   category: 'Kids Hoodies',
@@ -104,7 +104,7 @@ const products = [
 
   // Caps
   {
-    id: '11'
+    id: 11
   name: 'Black Logo Cap',
   price: 55,
   category: 'Caps',
@@ -112,7 +112,7 @@ const products = [
   alt: 'Black logo baseball cap'
   },
   {
-    id: '12'
+    id: 12
   name: 'Premium Dad Hat',
   price: 49,
   category: 'Caps',
@@ -122,7 +122,7 @@ const products = [
 
   // Beanies
   {
-    id: '13'
+    id: 13
   name: 'Black Cuff Beanie',
   price: 45,
   category: 'Beanies',
@@ -130,7 +130,7 @@ const products = [
   alt: 'Black cuff beanie'
   },
   {
-    id: '14'
+    id: 14
   name: 'Logo Beanie',
   price: 52,
   category: 'Beanies',
@@ -140,7 +140,7 @@ const products = [
 
   // Phone Cases
   {
-    id: '15'
+    id: 15
   name: 'iPhone Matte Black Case',
   price: 39,
   category: 'Phone Cases',
@@ -148,7 +148,7 @@ const products = [
   alt: 'Matte black iPhone case'
   },
   {
-    id: id: '16',
+    id: 16,
   name: 'Clear Logo Phone Case',
   price: 45,
   category: 'Phone Cases',
@@ -158,7 +158,7 @@ const products = [
 
   // Tech Accessories
   {
-    id: '17'
+    id: 17
   name: 'Wireless Earbuds Case',
   price: 69,
   category: 'Tech Accessories',
@@ -166,7 +166,7 @@ const products = [
   alt: 'Wireless earbuds protective case'
   },
   {
-    id: '18'
+    id: 18
   name: 'Premium Laptop Sleeve',
   price: 79,
   category: 'Tech Accessories',
