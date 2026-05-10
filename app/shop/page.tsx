@@ -176,7 +176,7 @@ const products = [
 ];
 
 type CartItem = {
-  id: string;
+  id: number;
   name: string;
   price: number;
   image: string;
@@ -290,8 +290,8 @@ const CartSidebar = ({
   cartTotal: number;
   isOpen: boolean;
   toggleCart: () => void;
-  updateQuantity: (id: string, quantity: number) => void;
-  removeItem: (id: string) => void;
+  updateQuantity: (id: number, quantity: number) => void;
+  removeItem: (id: number) => void;
 }) => (
   <AnimatePresence>
     {isOpen && (
@@ -430,7 +430,7 @@ export default function Shop() {
     });
   };
 
-  const updateQuantity = (id: string, quantity: number) => {
+  const updateQuantity = (id: number, quantity: number) => {
     if (quantity <= 0) {
       removeItem(id);
       return;
@@ -440,7 +440,7 @@ export default function Shop() {
     ));
   };
 
-  const removeItem = (id: string) => {
+  const removeItem = (id: number) => {
     setCartItems(prev => prev.filter(item => item.id !== id));
   };
 
